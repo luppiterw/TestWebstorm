@@ -1,0 +1,19 @@
+div {
+    border: 2px solid;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+
+.div3 {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.div4 {
+    /*-webkit-text-size-adjust: ;*/
+    width: 40px;
+    height:40px;
+    border-image:url(pictures/border.png) 30 30 round;
+    -moz-border-image:url(pictures/border.png) 30 30 round; /* 老的 Firefox */
+    -webkit-border-image:url(pictures/border.png) 30 30 round; /* Safari 和 Chrome */
+    -o-border-image:url(pictures/border.png) 30 30 round; /* Opera */
+}
