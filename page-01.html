@@ -27,5 +27,26 @@
     <div id="inner"></div>
     <br>
 
+    <!--以下代码无效-->
+    <!--<input type="button" value="测试函数调用" onclick="alert()">-->
+
+    <!--以下代码有效-->
+    <input type="button" value="测试函数调用" onclick="testCall()">
+    <input type="button" value="测试函数调用2" onclick="aFun()">
+    <input type="button" value="测试函数调用3" onclick="bFun()">
+
+
 </body>
+
+<script>
+    function testCall() {
+        alert("asdas")
+    }
+    
+    function aFun() {
+        $.anotherInter()
+    }
+
+    var bFun = $.anotherInter
+</script>
 </html>
