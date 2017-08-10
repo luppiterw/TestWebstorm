@@ -45,5 +45,12 @@ $(function () {
 
             inter.innerHTML=""
         }
-    }
+    };
+
+    var popup = function () {
+        alert("something")
+        // return popup
+    };
+    window.popup = popup;
+
 });
