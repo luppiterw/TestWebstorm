@@ -26,6 +26,8 @@
      */
     function renderHtml() {
         var calendar = document.getElementById("calendar");
+        // var calendar = document.getElementById("calendar");
+
         var titleBox = document.createElement("div");  // 标题盒子 设置上一月 下一月 标题
         var bodyBox = document.createElement("div");  // 表格区 显示数据
 
