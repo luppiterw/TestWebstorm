@@ -1,0 +1,41 @@
+* {
+    /*background: #eeddee;*/
+}
+
+.toolbar {
+    background: #cdee00;
+    height: 20px;
+}
+
+/*editor-display parent div*/
+.parent-editor-display-md {
+    display: flex;
+}
+
+.editor-md {
+    padding-left: 5px;
+    padding-top: 5px;
+    /*background: #ffff00;*/
+    background: #ffeeee;
+    /*font-family: "Droid Sans Mono", serif;*/
+    /*font-family: "Lohit Tamil", serif;*/
+    word-wrap: break-word;
+    overflow-y: scroll;
+
+    flex: 1;
+    /*height:auto;*/
+}
+
+.display-md {
+    padding-left: 5px;
+    padding-top: 5px;
+    /*background: #eeff00;*/
+    word-wrap: break-word;
+    overflow-y: auto;
+    overflow-x: auto;
+
+    margin-right: 10px;
+    flex: 1;
+    /*height:auto;*/
+
+}
