@@ -22,7 +22,19 @@
                 // mdDisplay.innerText = mdEditor.innerText;
                 released = false;
 
-                mdDisplay.innerHTML = mdEditor.innerHTML;
+                // mdDisplay.innerHTML = mdEditor.innerHTML;
+                // mdDisplay.innerText = mdEditor.innerText;
+                // mdDisplay.innerHTML = mdEditor.innerText.split(/\n/).length;
+                var textArray = mdEditor.innerText.split(/\n/);
+                // mdDisplay.innerHTML.clear();
+                mdDisplay.innerHTML = "";
+                for(var i in textArray) {
+                    mdDisplay.innerHTML += ("<div>" + textArray[i] + "</div>");
+                }
+
+                // mdDisplay.innerHTML = "<p>" + mdEditor.innerText + "</p>";
+                // mdDisplay.innerHTML += "<br>"
+                // mdDisplay.innerHTML += "<p>another line</p>"
                 // alert(mdDisplay.innerText);
             }
         }, 1000);
